@@ -31,8 +31,7 @@ namespace Rap_Finands
                 GemTrans(konti[0],"Hævet til Petuniaer",-50);
                 
                 gem();
-            } else {
-            }
+            } //Overflødig tom else statement
             dos_start();
             
         }
@@ -50,9 +49,9 @@ namespace Rap_Finands
                 Console.Write(">");
                 string valg1 = Console.ReadLine();
                 
-                //Parse funktion havde et + 1 på stringen
-                int valg = int.Parse(valg1);
                 
+                int valg = int.Parse(valg1); //Parse funktion havde + 1 til string
+
                 switch (valg) {
                     case 1:
                         dos_opretKonto();
@@ -154,8 +153,7 @@ namespace Rap_Finands
             if (saldo + beløb < 0) return false;
             var t = new Transaktion();
             t.tekst = tekst;
-            //Brug af forkete variable belob istædet for beløb
-            t.amount = beløb;
+            t.amount = beløb; //Brug af forkete variable belob istædet for beløb
             t.saldo = t.amount + saldo;
             t.dato = DateTime.Now;
             
