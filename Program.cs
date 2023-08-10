@@ -15,7 +15,7 @@ namespace Rap_Finands
         public static string reginummer = "4242";
         public static string datafil = "bank.json"; //Her ligger alt data i
         public static List<Konto> konti;
-        public static float belob;
+        //Ubrugt belob variable
         static void Main(string[] args)
         {
             Console.WriteLine("Henter alt kontodata");
@@ -82,7 +82,7 @@ namespace Rap_Finands
             }
             Console.WriteLine("Vælg et tal fra 1 til "+konti.Count);
             Console.Write(">");
-            int tal = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out int tal); //Uncaught parsing error
             if (tal < 1 || tal > konti.Count) {
                 Console.WriteLine("Ugyldigt valg");
                 Console.Clear();
