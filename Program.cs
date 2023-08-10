@@ -92,6 +92,7 @@ namespace Rap_Finands
         }
         static void dos_opretTransaktion(Konto k) 
         {
+            if (k == null) return; //Return if account wasn't found
             Console.Write("Tekst: ");
             string tekst = Console.ReadLine();
             Console.Write("Beløb: ");
