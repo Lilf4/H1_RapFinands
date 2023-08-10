@@ -130,12 +130,9 @@ namespace Rap_Finands
             }
             return nr;
         }
-        static void dos_udskrivKonti() {
-            Console.WriteLine("================");
-            foreach (Konto k in konti) {
-                Console.WriteLine(k.registreringsnr+" "+k.kontonr+" ejes af "+k.ejer);
-            }
-        }
+
+        //Unfinished function
+
         static void dos_udskrivKonto(Konto k) {
             if (k == null) return; //Return if account wasn't found
             Console.WriteLine("Konto for "+k.ejer+": "+k.registreringsnr+" "+k.kontonr);
