@@ -131,7 +131,7 @@ namespace Rap_Finands
             return nr;
         }
 
-        //Unfinished function
+        //Unfinished and unused function
 
         static void dos_udskrivKonto(Konto k) {
             if (k == null) return; //Return if account wasn't found
@@ -173,11 +173,11 @@ namespace Rap_Finands
         public static void gem() 
         {
             File.WriteAllText(datafil,JsonConvert.SerializeObject(konti));
-            File.Delete(datafil); //Fjern debug fil
+            //Fjernet gammel debug command
         }
         public static void hent()
         {
-            datafil = "debug_bank.json"; //Debug - brug en anden datafil til debug ~Konrad
+           //Fjernet gammel debug command
             if (File.Exists(datafil)) {
                 string json = File.ReadAllText(datafil);
                 konti = JsonConvert.DeserializeObject<List<Konto>>(json);

@@ -32,3 +32,4 @@ C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\n
 C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.csproj.CopyComplete
 C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.genruntimeconfig.cache
 C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\ref\RapFinands.dll
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\bin\Debug\net6.0\bank.json
