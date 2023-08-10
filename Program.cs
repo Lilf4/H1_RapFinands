@@ -137,6 +137,7 @@ namespace Rap_Finands
             }
         }
         static void dos_udskrivKonto(Konto k) {
+            if (k == null) return; //Return if account wasn't found
             Console.WriteLine("Konto for "+k.ejer+": "+k.registreringsnr+" "+k.kontonr);
             Console.WriteLine("================");
             Console.WriteLine("Tekst\t\t\t\tBeløb\t\tSaldo");
