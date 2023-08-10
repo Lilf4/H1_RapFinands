@@ -135,16 +135,44 @@ namespace Rap_Finands
 
         static void dos_udskrivKonto(Konto k) {
             if (k == null) return; //Return if account wasn't found
+
+            //Changed output to be formatted by widths
+            int[] widths = getMaxWidths(k);
+            int padding = 5;
+
             Console.WriteLine("Konto for "+k.ejer+": "+k.registreringsnr+" "+k.kontonr);
             Console.WriteLine("================");
-            Console.WriteLine("Tekst\t\t\t\tBeløb\t\tSaldo");
+            Console.Write("Tekst");
+            Console.SetCursorPosition(Console.CursorLeft + padding + (widths[0] - ("Tekst").Length), Console.CursorTop);
+            Console.Write("Beløb");
+            Console.SetCursorPosition(Console.CursorLeft + padding + (widths[1] - ("Beløb").Length), Console.CursorTop);
+            Console.WriteLine("Saldo");
+
+
+
             foreach (Transaktion t in k.transaktioner) {
-                Console.Write(t.tekst+"\t\t\t\t");
-                Console.Write(t.amount+"\t\t");
+                Console.Write(t.tekst);
+                Console.SetCursorPosition(Console.CursorLeft + padding + (widths[0] - t.tekst.Length), Console.CursorTop);
+                Console.Write(t.amount);
+                Console.SetCursorPosition(Console.CursorLeft + padding + (widths[1] - t.amount.ToString().Length), Console.CursorTop);
                 Console.WriteLine(t.saldo);
             }
             Console.WriteLine("================\n");
 
+        }
+
+        /// <summary>
+        /// Get the largest width of text and amount variables in a Konto object
+        /// </summary>
+        /// <param name="k"></param>
+        /// <returns></returns>
+        static int[] getMaxWidths(Konto k) {
+            int[] widths = new int[2];
+            foreach (Transaktion t in k.transaktioner) {
+                if (t.tekst.Length > widths[0]) widths[0] = t.tekst.Length;
+                if (t.amount.ToString().Length > widths[1]) widths[1] = t.amount.ToString().Length;
+            }
+            return widths;
         }
         
         public static bool GemTrans(Konto konto, string tekst, float beløb) {
