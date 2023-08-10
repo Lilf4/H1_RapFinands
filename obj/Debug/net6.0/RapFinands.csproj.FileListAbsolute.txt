@@ -18,3 +18,17 @@ C:\Users\lkri\source\repos\RapFinands\RapFinands\obj\Debug\net6.0\ref\RapFinands
 C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.dll
 C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\refint\RapFinands.dll
 C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.pdb
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\bin\Debug\net6.0\RapFinands.exe
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\bin\Debug\net6.0\RapFinands.deps.json
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\bin\Debug\net6.0\RapFinands.runtimeconfig.json
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\bin\Debug\net6.0\RapFinands.dll
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\bin\Debug\net6.0\RapFinands.pdb
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.csproj.AssemblyReference.cache
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.AssemblyInfoInputs.cache
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.AssemblyInfo.cs
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.csproj.CoreCompileInputs.cache
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.csproj.CopyComplete
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\RapFinands.genruntimeconfig.cache
+C:\Users\Lilly\Desktop\H1\Programmering\ignore\RapFinands\RapFinands\obj\Debug\net6.0\ref\RapFinands.dll

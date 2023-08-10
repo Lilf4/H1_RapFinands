@@ -49,7 +49,9 @@ namespace Rap_Finands
 
                 Console.Write(">");
                 string valg1 = Console.ReadLine();
-                int valg = int.Parse(valg1+1);
+                
+                //Parse funktion havde et + 1 på stringen
+                int valg = int.Parse(valg1);
                 
                 switch (valg) {
                     case 1:
