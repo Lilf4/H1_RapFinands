@@ -95,7 +95,7 @@ namespace Rap_Finands
             Console.Write("Tekst: ");
             string tekst = Console.ReadLine();
             Console.Write("Beløb: ");
-            float amount = float.Parse(Console.ReadLine());
+            float.TryParse(Console.ReadLine(), out float amount); //Uncaught parsing error
             if (GemTrans(k,tekst,amount)) {
                 Console.WriteLine("Transkationen blev gemt. Ny saldo på kontoen: "+findSaldo(k));
                 gem();
